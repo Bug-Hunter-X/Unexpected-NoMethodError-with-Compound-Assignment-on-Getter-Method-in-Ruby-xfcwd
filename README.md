@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Ruby related to compound assignment operators and getter methods that return primitive values.  The bug arises when trying to modify the returned value directly with an operator like `+=`, resulting in a `NoMethodError`. The solution illustrates how to correctly handle such scenarios.
